@@ -8,7 +8,7 @@ export async function sendContactConfirmation(
 ): Promise<void> {
   try {
     await resend.emails.send({
-      from: "HeartCrafted <forever@heartcrafted.com>",
+      from: "HeartCrafted <gulstry@gmail.com>",
       to: email,
       subject: "We received your message ✨",
       html: `
