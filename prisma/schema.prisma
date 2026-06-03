@@ -1,0 +1,94 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  orders    CustomOrder[]
+}
+
+model CustomOrder {
+  id            String      @id @default(cuid())
+  userId        String?
+  user          User?       @relation(fields: [userId], references: [id])
+  giftType      String
+  recipientName String
+  occasion      String
+  story         String      @db.Text
+  photoUrls     String[]
+  voiceUrl      String?
+  theme         String?
+  status        OrderStatus @default(PENDING)
+  totalAmount   Float?
+  email         String
+  phone         String?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  CRAFTING
+  SHIPPED
+  DELIVERED
+}
+
+model GiftCollection {
+  id          String   @id @default(cuid())
+  name        String
+  description String   @db.Text
+  price       Float
+  imageUrl    String
+  category    String
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}
+
+model Testimonial {
+  id        String   @id @default(cuid())
+  name      String
+  location  String
+  story     String   @db.Text
+  rating    Int      @default(5)
+  photoUrl  String?
+  giftType  String?
+  featured  Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model GalleryItem {
+  id          String   @id @default(cuid())
+  imageUrl    String
+  title       String
+  category    String
+  description String?
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  subject   String
+  message   String   @db.Text
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
