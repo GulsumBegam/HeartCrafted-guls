@@ -19,7 +19,7 @@ export function StructuredData() {
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "Customer Service",
-          email: "forever@heartcrafted.com",
+          email: "gulstry@gmail.com",
         },
         sameAs: [
           "https://instagram.com/heartcrafted",
