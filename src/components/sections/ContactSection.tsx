@@ -84,8 +84,8 @@ export function ContactSection() {
 
             <div className="space-y-5">
               {[
-                { icon: Mail, label: "Email", value: "forever@heartcrafted.com" },
-                { icon: Phone, label: "WhatsApp", value: "+91 98765 43210" },
+                { icon: Mail, label: "Email", value: "gulstry@gmail.com" },
+                { icon: Phone, label: "WhatsApp", value: "+91 9361061756" },
                 { icon: MapPin, label: "Studio", value: "Virudhunagar, Tamil Nadu, India" },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4">
