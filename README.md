@@ -31,23 +31,23 @@ A luxury emotional gifting platform that transforms memories, love stories, frie
 
 <table>
   <tr>
-    <td width="50%"><img src="./screenshots/01-hero.png" alt="Homepage hero" /><br/><sub align="center">Homepage — Crafting Emotions Into Forever</sub></td>
-    <td width="50%"><img src="./screenshots/02-collections.png" alt="Collections" /><br/><sub>Curated gift collections</sub></td>
+    <td width="50%"><img src="./01-hero.png" alt="Homepage hero" /><br/><sub align="center">Homepage — Crafting Emotions Into Forever</sub></td>
+    <td width="50%"><img src="./02-collections.png" alt="Collections" /><br/><sub>Curated gift collections</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./screenshots/04-ai-matcher.png" alt="AI Gift Matcher" /><br/><sub>AI Gift Matcher — guided quiz</sub></td>
-    <td width="50%"><img src="./screenshots/05-match-result.png" alt="AI match result" /><br/><sub>Perfect match result</sub></td>
+    <td width="50%"><img src="./04-ai-matcher.png" alt="AI Gift Matcher" /><br/><sub>AI Gift Matcher — guided quiz</sub></td>
+    <td width="50%"><img src="./05-match-result.png" alt="AI match result" /><br/><sub>Perfect match result</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./screenshots/03-builder.png" alt="Bespoke gift builder" /><br/><sub>Bespoke Gift Builder — tell your story</sub></td>
-    <td width="50%"><img src="./screenshots/06-stories.png" alt="Customer stories" /><br/><sub>Stories that made us cry (happily)</sub></td>
+    <td width="50%"><img src="./03-builder.png" alt="Bespoke gift builder" /><br/><sub>Bespoke Gift Builder — tell your story</sub></td>
+    <td width="50%"><img src="./06-stories.png" alt="Customer stories" /><br/><sub>Stories that made us cry (happily)</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./screenshots/07-gallery.png" alt="Memory gallery" /><br/><sub>Memory Gallery — crafted with love</sub></td>
-    <td width="50%"><img src="./screenshots/08-about.png" alt="About page" /><br/><sub>About — born from a gift that changed everything</sub></td>
+    <td width="50%"><img src="./07-gallery.png" alt="Memory gallery" /><br/><sub>Memory Gallery — crafted with love</sub></td>
+    <td width="50%"><img src="./08-about.png" alt="About page" /><br/><sub>About — born from a gift that changed everything</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./screenshots/09-contact.png" alt="Contact page" /><br/><sub>Let's craft something special</sub></td>
+    <td width="50%"><img src="./09-contact.png" alt="Contact page" /><br/><sub>Let's craft something special</sub></td>
     <td width="50%"></td>
   </tr>
 </table>
